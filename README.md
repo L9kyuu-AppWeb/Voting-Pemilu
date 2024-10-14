@@ -1,19 +1,30 @@
-# Sistem Voting Pemilu
+# Voting Application
 
-Sistem Voting Pemilu adalah aplikasi web yang dirancang untuk memfasilitasi pemilihan umum (pemilu). Aplikasi ini memungkinkan pengguna untuk mendaftar sebagai peserta, memberikan suara, dan mengelola data peserta secara efisien.
+A web-based voting application with features to manage participants, candidates, and real-time vote counting. This system ensures a seamless and secure voting experience with a variety of management and monitoring functionalities.
 
-## Fitur Utama
+## Features
 
-- **Registrasi Peserta**: Pengguna dapat mendaftar dengan mengisi nama dan email.
-- **Pemungutan Suara**: Peserta terdaftar dapat memberikan suara untuk kandidat yang tersedia.
-- **Pengelolaan Peserta**: Admin dapat melihat, menghapus, dan mengimpor peserta menggunakan file CSV.
-- **Template CSV**: Tersedia template untuk mengimpor peserta secara massal.
-- **Antarmuka Pengguna Responsif**: Menggunakan Tailwind CSS untuk desain yang modern dan responsif.
+### 1. Login with Email
+- **Secure login** functionality where participants can log in using their registered email addresses.
+- Only registered participants can access the voting system.
 
-## Instalasi
+### 2. Participant Management
+- **View Participants**: Admins can view the list of all participants.
+- **Import Excel**: Bulk import participants' data using an Excel file (.xls or .xlsx).
+- **Delete Participant**: Admins can remove participants if necessary.
+- **Vote Status Monitoring**: The system displays the number of participants who have already voted and those who haven't.
 
-1. **Clone Repository**
+### 3. Candidate Management
+- **Add Candidates**: Admins can add new candidates, including uploading candidate photos.
+- **Edit Candidates**: Admins can update the details of existing candidates.
+- **Delete Candidates**: Remove candidates from the system.
+  
+### 4. Real-Time Vote Counting
+- A **real-time results page** that shows the ongoing vote count, updating automatically as participants vote.
+- The candidate with the most votes is highlighted as the potential winner.
 
+## Installation
+
+1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/L9kyuu-AppWeb/Voting-Pemilu.git
-   cd Voting-Pemilu
+   git clone https://github.com/your-username/voting-app.git
